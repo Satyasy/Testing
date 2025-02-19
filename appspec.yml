@@ -3,6 +3,7 @@ os: linux
 files:
   - source: /
     destination: /var/www/laravel-cicd
+file_exists_behavior: OVERWRITE
 permissions:
   - object: /var/www/laravel-cicd
     owner: www-data
